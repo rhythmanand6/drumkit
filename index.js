@@ -1,6 +1,6 @@
   var numberofDrum = document.querySelectorAll(".drum").length;
   for(var i = 0 ; i<  numberofDrum ; i++){
-  document.querySelectorAll(".drum")[i].addEventListener("keypress" ,  function(event){
+  document.querySelectorAll(".drum")[i].addEventListener("click" ,  function(event){
     var buttonInnerHTMl = this.innerHTMl;
 
     makeSound(buttonInnerHTMl);
